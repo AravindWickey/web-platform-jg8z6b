@@ -17,6 +17,7 @@ body {
 .topnav {
   overflow: hidden;
  background: #5C524D;
+ margin-left:px;
 ;
 }
 
@@ -41,4 +42,73 @@ body {
 .positionnav{
   width: 500px;
 margin-left:520px;
+}
+#imagee{
+position: absolute;
+width: 200px;
+height: 34px;
+left: 13px;
+top: 92px;
+border-radius: 4px;
+}
+#inputplace{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px;
+
+position: static;
+width: 675px;
+height: 89px;
+left: 0px;
+top: 0px;
+
+background: #FAFAFA;
+border: 1px solid #D5D5D5;
+box-sizing: border-box;
+border-radius: 4px;
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 16px 0px;
+}
+#warning
+{
+ position: static;
+width: 1135px;
+height: 20px;
+left: 40px;
+top: 2px;
+
+font-family: Almarai;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+
+text-transform: capitalize;
+
+color: #212121;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 16px;
+
+
+}
+#imageee{
+  position: absolute;
+width: 2px;
+height: 3px;
+left: px;
+top: px;
 }
